@@ -1,0 +1,29 @@
+
+
+Hadoop (ecosysteme de big data)
+GDFS google distribter file system , HDFS pour stocker les donnees :bech tekhdm alihom des traitements , des statistiques (ye7seb fichier de conf w ychouf taille mte3i w y9asmou l des blocs ken 150Mo y9asmou l'3 parties)
+mapreduce pour traiter les donnees : plusieurs map reduce plusieurs traitement yemchiw en // bech yjibou les donnees kol wehed l machine ( khater des donnees massives) bech ysara3 el traitement w fisa3 ysir
+
+falut tolerant ( nel9a haja matthi3ech :grace a la replication)
+cluster : ensembles de plusieurs machines
+fichier repartis sur plusieurs blocs dans le meme disque
+
+NameNode : datanode pour stocker les donnees: bech yetelha bel distribution w replication
+
+distribution : un fichier est stocké sur plusieurs datanode (kol disque nekhou menou une partie asraa3 mouch kima disue wehed)
+ yarn mapreduce version2=> khatr vrsion 1 ken namenode tet7akam fi kol chay ken ta7et kol chy sera paralelisé
+fichier ml linux nhezouh fel HDFS 
+
+
+chp2
+namenode soccupe de stockage
+et tasktraker soccupe de traitement
+
+application master soccupe du traitement , la responsabilité de donner le resultat
+resource manager soccpe de combien de container nécessaire pour faire le traitement
+
+
+
+
+
+
